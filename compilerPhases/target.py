@@ -321,9 +321,7 @@ def genAssembly(lines, file):
                 time.sleep(0.02)
                 stmt.append(st)
     return vardec, stmt
-                
-                
-            
+                    
 def writeassembly(stmt, vardec, File):
     File.write(".text\n")
     for i in stmt:
